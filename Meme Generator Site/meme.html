@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meme Generator</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src = "meme.js"></script>
+<link rel = "stylesheet" type = "text/css" href = "meme.css"></link>
+</head>
+<body>
+<div id = "intro" style = "text-align: center">
+	<u id = "introM">Welcome to my Meme Generator</u>
+</div>
+<div id = "meme1">
+	<label for "top-text">Top Text:</label>
+	<input id = "top-text" size = "55"></input><br>
+	<label for "bottom-text">Bottom Text:</label>
+	<input id = "bottom-text" size = "52"></input><br>
+</div>
+<div id = "meme2">
+	<div id = "top-captionB"> <h1 id = "top-caption"> </h1> </div>
+	<div id = "bottom-captionB"> <h1 id = "bottom-caption"> </h1> </div>
+</div>
+<div id = "meme4">
+	<label for "image-url">Image URL:</label>
+	<input id = "image-url" size = "70"></input><br>
+	<button class = "image-button">Link Image URL</button>
+</div>
+<div id="meme3" style=" height:100px; position:relative">
+	<p>Note: copy the Internet image address for the image you want to view and paste it in the Image URL.</p>
+	<img id="img1" src="#" style="height: 100px; width: 100px">
+</div>
+<div id="compile">
+	<button class = "compile-button">Compile Elements into Meme</button>
+</div>
+<div id="resultBox">
+	<p>Use the arrow buttons to change the color of the meme text</p>
+	<img id="img2" src="#">
+	<div id="resultTop">
+		<p></p>
+	</div>
+	<div id="resultBottom">
+		<p></p>
+	</div>
+</div>
+<div id = "closing">
+	<p>Thank you for experimenting!</p>
+</div>
+</body>
+</html>

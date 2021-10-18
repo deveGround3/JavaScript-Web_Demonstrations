@@ -1,0 +1,74 @@
+#introM {
+	text-align:center;
+	font-weight: bold;
+	font-size: 40px;
+}
+#meme1 {
+	margin-top:35px;
+}
+#meme1 label, #meme1 button, #meme1 input {
+	margin-bottom: 15px;
+}
+#meme1 input {
+	overflow: hidden;
+}
+#meme2 h1 {
+	border-style:solid;
+	height: 75px;
+	font-size: 50px;
+	padding-left: 4%;
+	margin: 7.5px 0px 7.5px 0px;
+}
+#meme4 {
+	margin-top:35px;
+}
+#meme4 label, #meme4 button, #meme4 input {
+	margin-bottom: 15px;
+}
+#closing {
+	margin-top: 110px;
+}
+#top-captionB {
+	background-color: rgb(123,0,255);
+}
+#bottom-captionB {
+	background-color: rgb(255,150,255);
+}
+#compile {
+	padding-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#resultBox {
+	position: relative;
+	max-width: 100%;
+	text-align: center;
+}
+# resultBox p{
+	font-size: 14px;
+}
+#img2 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#resultTop {
+	bottom: 70%;
+}
+#resultBottom {
+	bottom: 7.5%;
+}
+#resultBottom, #resultTop {
+	left:50%;
+	position: absolute;
+	/*width:60%;*/
+	font-size: 38px;
+	margin-left:auto;
+	margin-right:auto;
+	transform:translateX(-50%);
+}
+#resultBottom p, #resultTop p {
+	color: black;
+	text-align: center;
+}
